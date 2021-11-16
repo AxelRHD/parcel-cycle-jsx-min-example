@@ -1,0 +1,21 @@
+{
+  "name": "cycle-jsx-parcel",
+  "version": "0.1.0",
+  "author": "AxelRHD",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.16.0",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "parcel": "^2.0.1",
+    "snabbdom-pragma": "^2.8.0"
+  },
+  "dependencies": {
+    "@cycle/dom": "^23.0.0",
+    "@cycle/run": "^5.5.0",
+    "xstream": "^11.14.0"
+  }
+}
