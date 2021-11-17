@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "serve": "python -m http.server -b 0.0.0.0 -d ./dist"
   },
   "devDependencies": {
     "@babel/plugin-transform-react-jsx": "^7.16.0",
